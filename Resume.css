@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+html {
+  background-color: white;
+  padding: 5px;
+}
+
+.container {
+     display: inline;
+   }
+   .header {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     background-color: #263547;
+     height: 100px;
+   }
+   .title {
+     align-items: center;
+     color: #eeb14f;
+     font-family: 'Raleway', serif;
+     font-size: 45px;
+     font-weight: bold;
+     text-align: center;
+     margin: auto;
+   }
+   .content-body {
+       display: flex;
+       flex-direction: row;
+     }
+     .section-left {
+      flex: 1;
+      background-color: #eeb14f;
+    }
+    .perDetails{
+        margin-left: 20px;
+        margin-top: 35px;
+        font-size: 20px;
+        font-family: sans-serif;
+
+    }
+    .wrapper {
+      margin: 20px;
+      }
+      img{
+        height: 225px;
+        width: 190px;
+        border-radius: 50%;
+        margin-left: 52px;
+      }
+      .section-right {
+     flex: 2;
+   }
+   .section-right .wrapper {
+     margin-left: 50px;
+   }
+   .content{
+     font-family: sans-serif;
+     font-size: 20px;
+   }
+   h2{
+     text-transform: uppercase;
+     color: #ffcc00;
+     font-size: 1em;
+     font-weight: bold;
+     font-family: 'Montserrat', serif;
+
+   }
+
+   table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  align-items: center;
+  width: 900px;
+}
+    tr{
+      text-align: center;
+    }
+    th{
+      background-color: #e0ebeb;
+    }
